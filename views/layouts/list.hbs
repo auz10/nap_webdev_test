@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    {{> pageHead}}
+    <body class="l-{{template}}">
+    	<div class="container">
+
+    		<h1><a href="/list?pn=1">{{title}}</a></h1>
+            {{> nav}}
+    		<div id="filter-list">
+    			<div id="sort-filter-list">
+    				<div class="filter-head"><strong>Sort by:</strong></div>
+    				<div class="filter-item"><a href="/list?sortby=price_high" id="sort-high">High - Low</a></div>
+    				<div class="filter-item"><a href="/list?sortby=price_low" id="sort-low">Low - High</a></div>
+    				<br><div class="filter-head"><strong>Filter by:</strong></div>
+    			</div>
+                <div id="cat-filter-list">
+                    <div class="filter-item"><a href="/list?category=44">Jackets</a></div>
+                    <div class="filter-item"><a href="/list?category=39">Top</a></div>
+                    <div class="filter-item"><a href="/list?category=42">Pants</a></div>
+                    <div class="filter-item"><a href="/list?category=48">Coat</a></div>
+                    <div class="filter-item"><a href="/list?category=46">Dress</a></div>
+                    <div class="filter-item"><a href="/list?category=55">Jeans</a></div>
+                    <div class="filter-item"><a href="/list?category=40">Beachwear</a></div>
+                    <div class="filter-item"><a href="/list?category=49">Wrap</a></div>
+                    <div class="filter-item"><a href="/list?category=4885">Jumpsuit</a></div>
+                    
+                    
+                </div>
+
+    		    <div id="designer-filter-list">
+    		    </div>
+    	    </div>
+
+
+
+    		<div id="product-list-display">
+                {{#each products}} 
+                    {{> product}}
+                {{/each}}
+              
+    		</div>
+
+    	</div>
+        {{> scripts}}
+    
+
+
+    </body>
+</html>

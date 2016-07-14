@@ -1,0 +1,157 @@
+body {
+
+}
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h1 a {
+    color: black;
+    text-decoration: none;
+}
+h1 a:hover {
+    color: #4e4e4e;
+    text-decoration: none;
+}
+.container {
+    width: 1100px;
+}
+.product {
+    float: left;
+    padding: 0px 5px 20px 5px;
+    height: 309px;
+    width: 210px;
+}
+.product-list {
+	display: inline;
+	list-style-type: none;
+}
+#filter-list {
+    width: 150px;
+    height: 700px;
+    float: left;
+    position: relative;
+    z-index: 3;
+}
+#sort-filter-list {
+    width: 150px;
+}
+.filter-item {
+    width: 150px;
+}
+#designer-filter-list {
+    float: left;
+    width: 150px;
+    overflow: scroll;
+    height: 315px;
+    position: relative;
+    border-top: solid;
+    border-top-width: 1px;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    z-index: 1;
+}
+#product-list-display {
+    width: 1000px;
+    height: 700px;
+    position: relative;
+}
+#designer-filter-list ul {
+    list-style-type: none;
+    font-size: 12px;
+}
+#designer-filter-list a {
+    color: black;
+    text-decoration: none;
+}
+#designer-filter-list a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+}
+#designer-filter-list a:active {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+}
+#filter-list {
+    padding-left: 0px;
+    position: relative;
+}
+#cat-filter-list {
+    padding-bottom: 10px;
+}
+.product-image img {
+    width: 200px;
+    height: 302px;
+}
+.product-details {
+    position: absolute;
+    margin-top: -75px;
+    width: 200px;
+    vertical-align: bottom;
+    background-color: rgba(255, 255, 255, 0.6);
+    text-align: right;
+}
+.product-name {
+    font-size: 10px;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+.product-price {
+    font-size: 12px;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+.designer-name {
+    margin-right: 3px;
+    margin-left: 3px;
+}
+.des-filter-item a {
+    font-size: 12px;
+    margin-left: 5px;
+    color: #4e4e4e;
+    text-decoration: none;
+}
+.filter-item a {
+    font-size: 12px;
+    margin-left: 5px;
+    color: #4e4e4e;
+    text-decoration: none;
+}
+.filter-item a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 0 4px;
+}
+#sort-filter-list {
+    padding-bottom: 5px;
+}
+#nav-buttons {
+    width: 994px;
+    height: 30px;
+}
+#nav-buttons p {
+    float: right;
+}
+#nav-buttons a {
+    color: black;
+    text-decoration: none;
+    padding: 0 2px;
+}
+#nav-buttons a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+}
+#progress-bar {
+    width: 0%;
+    max-width: 830px;
+    height: 10px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    background-color: black;
+    margin-left: 155px;
+    margin-right: 5px;
+}
